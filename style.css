@@ -1,0 +1,70 @@
+#container{
+    background-color: black;
+     height: 1000px;
+     width: auto;
+     padding: 20px; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: large;
+ }
+ 
+ form{
+     
+     background-color:purple;
+    max-width:  520px;
+     height: 83vh;
+     padding: 35px;
+     margin: auto;
+     color: white;
+     border-radius: 10px 5px;
+ }
+ 
+ #title,p{
+     text-align: center;
+     color: aliceblue; 
+ }
+ 
+ #name, #email,#number{
+     padding: 10px;
+     width: 480px;
+     border-radius: 6px;
+     border: none;
+     margin-top: 8px;
+     margin-bottom: 8px;
+ }
+ 
+ #description, #radio-description,#selected,#textarea-A{
+     display: flex;
+     flex-direction: row;
+     margin-bottom: none;
+ 
+ }
+ 
+ #dropdown{
+     width: 500px;
+     padding: 10px;
+     border-radius: 6px;
+     margin-top: none;
+     margin-bottom: 19px;
+ }
+ #html{
+     margin-top: 9px;
+     padding: 8px;
+ }
+ 
+ textarea{
+     padding: 4px;
+     border-radius: none;
+     border-radius: 9px; 
+     text-align: center;
+ }
+ 
+ #submit{
+     width: 500px;
+     background-color: rgba(51, 255, 0, 0.842);
+     padding: 8px;
+     margin-top: 10px;
+     border-radius: none;
+     border-radius: 9px;
+ }
+ 
+ 

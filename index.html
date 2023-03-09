@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello all</h1>
-  </body>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+        
+        <form  id="survey-form">
+          <label for="name" id="name-label">Name</label > <br> 
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email">
+          <label for="number" id="number-label">Number</label>
+          <input type="number" name="number" id="number" min="10" max="99" placeholder="Age"><br>
+          
+          <p id="description">Which option best describes your current role?</p>
+          <select name="dropdown" id="dropdown">
+            
+            <option disabled selected value="Select current role">Select current role</option>
+            <option value="student">Student</option>
+            <option value="full time job">Full Time Job</option> <br> <br>
+          </select>
+        
+            <label for="html" id="radio-description">Favourite coding language</label>
+            <input type="radio" name="fav language" id="html" value="HTML">
+            <label for="html">HTML</label><br>
+        
+            <input type="radio" name="fav-language" id="css" value="CSS"> 
+            <label for="css">CSS</label> <br>
+        
+            <input type="radio" name="fav-language" id="java" value="JAVA"> 
+            <label for="java">JAVA</label> <br><br>
+        
+           <label for="frontend">What would you like to see improved? (Check all that apply)</label><br>
+           <input type="checkbox" name="front-end" id="frontend">
+           <label for="front-end">Front-end Projects</label> <br>
+        
+           <input type="checkbox" name="back-end" id="backend">
+           <label for="back-end">Back-end Projects</label> <br>
+        
+           <input type="checkbox" name="data-visualisation" id="datavisualisation">
+           <label for="datavisualisation">Data Visualization</label><br>
+        
+           <p id="textarea-A">Any comments or suggestions?</p>
+           <textarea name="textarea" id="textarea" cols="60" rows="8">Enter your name here...</textarea><br>
+        
+           <button type="submit" id="submit">submit</button>
+          
+         
+        
+        
+            
+        
+           
+        
+        
+        </form>
+        
+        
+        </div>
+</body>
 </html>
